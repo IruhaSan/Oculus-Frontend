@@ -1,0 +1,45 @@
+.root {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #fff;
+    height: 100vh;
+}
+.root-wrapper {
+    background-color: #fff;
+}
+.content {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & > h1 {
+        align-self: center;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 1.01;
+        color: #001A49;
+    }
+    & > button {
+        border: 0px;
+        margin-top: 60px;
+        background: #F1E4F9;
+        border-radius: 45px;
+        padding: 20px;
+        color: #001A49;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.15;
+    }
+    & > button.gradient {
+        background: linear-gradient(44.11deg, #9D5EBD 15.75%, #9F06FF 84.63%);
+        color: #fff;
+        line-height: 1.2;
+    }
+    & > button:first-child {
+        margin-top: 40.5px;
+    }
+}

@@ -1,0 +1,40 @@
+.root {
+    width: 100%;
+}
+
+.slider {
+    display: none;
+}
+
+.slider-mobile {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 1.22;
+    &__arrow {
+        display: flex;
+        width: 66px;
+        height: 66px;
+        border-radius: 22px;
+        background-color: #fff;
+        justify-content: center;
+        align-items: center;
+        > img {
+            width: 9px;
+            height: 18px;
+        }
+    }
+    &__quest {
+        margin-top: 24px;
+        display: block;
+        & > img {
+            width: 450px;
+            height: 245px;
+        }
+    }
+}

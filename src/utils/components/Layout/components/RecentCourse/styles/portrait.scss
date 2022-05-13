@@ -1,0 +1,97 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 30px 30px 0px 0px;
+    width: 340px;
+    height: 340px;
+    justify-content: space-between;
+    & > button {
+        border: none;
+        border-radius: 0px 0px 30px 30px;       
+        text-align: center;
+        background: #E2C7F3;
+        color: #682379;
+        padding: 23px 85px;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        white-space: nowrap;
+    }
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 21px;
+    box-shadow: 10.75px 43px 53.75px rgba(229, 233, 246, 0.4);
+    & > h1 {
+        font-family: 'Montserrat';
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 1.55;
+        color: #001A49;
+    }
+    &-postTitle {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        & > h2 {
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 1.2;
+            color: #001A49;
+            &:first-child {
+                margin-top: 20px;
+            }
+        }
+        &::before {
+            background-color: rgba(46,197,206,.5);
+            content: "";
+            display: block;
+            height: 20px;
+            left: 4px;
+            position: absolute;
+            z-index: 1;
+        }
+    }
+    &__description {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        &-hosts {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-bottom: 30px;
+            & > span {
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 1.33;
+                color: #4F596A;
+            }
+            & > p {
+                margin-top: 10px;
+                font-family: 'Montserrat';
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 1.22;
+                color: #6D3676;
+            }
+        }
+        & > img {
+            position: absolute;
+            left: 125px;
+            width: 175px;
+            height: 135px;
+            bottom: 0px;
+        }
+    }
+}

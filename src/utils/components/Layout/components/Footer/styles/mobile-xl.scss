@@ -1,0 +1,86 @@
+.root {
+   width: 100%;
+}
+
+.subscribe {
+    padding-left: 0;
+}
+
+.subscribe img {
+    position: static;
+    z-index: 1;
+}
+
+.subscribe-info {
+    z-index: 0;
+    width: 100%;
+}
+
+.subscribe-info h1 {
+    font-size: 33px;
+    line-height: 1.27;
+}
+
+.subscribe-info span {
+    width: 93%;
+    font-size: 24px;
+    line-height: 1.56;
+}
+
+.subscribe-info button {
+    width: 100%;
+    font-size: 19.5px;
+    height: 58px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.info > img {
+    width: 372px;
+    height: 102px;
+    object-fit: cover;
+}
+
+.info_description {
+    display: none;
+
+}.info_description-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.info_description-mobile > div > span {
+    font-size: 21px;
+    line-height: 1.7;
+}
+
+.info_description-mobile > div {
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.info_description-mobile > h2 {
+    margin-top: 33px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: 'Mulish';
+}
+
+.info_description-mobile > span {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    color: rgb(139, 139, 139);
+    padding-bottom: 35px;
+}
